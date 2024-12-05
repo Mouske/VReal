@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site avec Thème Couleur</title>
+    <style>
+        /* Style général de la page */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #EFECE9; /* Couleur de fond générale */
+            color: #333; /* Texte sombre pour le contraste */
+        }
+
+        /* En-tête */
+        header {
+            background-color: #AC9C8D; /* Couleur principale de l'en-tête */
+            color: white;
+            padding: 15px 20px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #EFECE9; /* Texte clair */
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #E3C1B4; /* Couleur d'accentuation au survol */
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            background-color: #DDD9CE; /* Couleur douce pour les sections */
+            max-width: 900px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #AC9C8D; /* Titre utilisant la couleur principale */
+        }
+
+        /* Pied de page */
+        footer {
+            text-align: center;
+            padding: 15px 20px;
+            background-color: #E3C1B4; /* Couleur du pied de page */
+            color: white;
+        }
+    </style>
+   
+    
+</head>
+<body>
+
+<header>
+    <nav style="display: flex; align-items: center; justify-content: space-between;">
+        <!-- Conteneur du logo -->
+        <div class="logo-container" style="flex-shrink: 0;">
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 841.89 595.28" style="height: 80px;">
+                <defs>
+                    <style>
+                        .st0, .st1 {
+                            fill: #231f20;
+                        }
+                        .st1 {
+                            font-family: GrandSportExpanded, 'Grand Sport Expanded';
+                            font-size: 73.59px;
+                        }
+                    </style>
+                </defs>
+                <g>
+                    <rect x="50.41" y="180.53" width="154.57" height="60.46"/>
+                    <path class="st0" d="M206.74,242.75H48.64v-63.97h158.09v63.97ZM52.17,239.24h151.05v-56.96H52.17v56.96Z"/>
+                </g>
+                <g>
+                    <rect x="273.26" y="275.54" width="157.44" height="62.4"/>
+                    <path class="st0" d="M424.81,337.95h-153.32v-64.16h153.32v64.16ZM275.03,334.43h146.22v-57.13h-146.22v57.13Z"/>
+                </g>
+                <g>
+                    <path d="M203.3,179.96c-.39,0-.79-.04-1.18-.07l-44.09,43.96,114.43,114.1,44.65-44.52-113.81-113.47Z"/>
+                    <path class="st0" d="M271.48,337.95l-115.39-115.27,46.25-42.49.85,2.11c.22.02.19-3.53.41-3.53h4.29l111.8,111.31-48.21,47.86ZM161.09,222.68l111.93,111.6,42.15-42.02-111.93-111.6-42.15,42.02Z"/>
+                </g>
+                <text class="st1" transform="translate(173.79 401.55) scale(.91 1)">VREAL</text>
+            </svg>
+        </div>
+
+        <!-- Menu de navigation -->
+        <ul style="display: flex; list-style: none; margin: 0; padding: 0; gap: 20px;">
+            <li><a href="#home" style="text-decoration: none; color: #AC9C8D; font-weight: bold;">Home</a></li>
+            <li><a href="#about-us" style="text-decoration: none; color: #AC9C8D; font-weight: bold;">About Us</a></li>
+            <li><a href="#services" style="text-decoration: none; color: #AC9C8D; font-weight: bold;">Services</a></li>
+            <li><a href="#contact" style="text-decoration: none; color: #AC9C8D; font-weight: bold;">Contact</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <div class="logo">VReal</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Contenu principal -->
+<section id="home">
+    <h2>Home</h2>
+    <p>Bienvenue sur la page d'accueil. Explorez les autres rubriques pour en savoir plus.</p>
+</section>
+
+<section id="about-us">
+    <h2>About Us</h2>
+    <p>Nous sommes une entreprise dédiée à offrir des services de qualité à nos clients.</p>
+</section>
+
+<section id="services">
+    <h2>Services</h2>
+    <p>Nous proposons divers services adaptés à vos besoins. Contactez-nous pour plus d'informations.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>N'hésitez pas à nous envoyer un message si vous avez des questions !</p>
+</section>
+
+<!-- Pied de page -->
+<footer>
+    &copy; 2024 VReal. Tous droits réservés.
+</footer>
+
+</body>
+</html>
